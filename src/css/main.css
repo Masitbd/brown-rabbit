@@ -2,12 +2,8 @@ body {
     height: 100vh;
    
 }
-.wrapper{
-    text-align: center;
-}
-
-a{
-    color: white;
-    margin-top: 15px;
-    display: inline-block;
-}
+.display-position{
+    position: absolute; 
+    right: 0px;
+    top:0px;
+   }

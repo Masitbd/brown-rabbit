@@ -13,26 +13,42 @@
     <header>
         <h1>This is header</h1>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container">
+            <div class="container d-flex justify-content-between">
+                <div class="py-3 d-none d-xxl-block">
+                    <a class="navbar-brand" href="#"><img src="./assets/logo-white.svg" alt=""></a>
+                </div>
 
-                <a class="navbar-brand" href="#"><img src="./assets/logo-white.svg" alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">About us</a>
-                        <a class="nav-link" href="#">Events</a>
-                        <a class="nav-link" href="#">Nordic roaster</a>
-                        <a class="nav-link" href="#">Links</a>
-                        <a class="nav-link" href="#">Contact</a>
+                <!--   <a class="navbar-brand" href="#">Navbar</a> -->
+                <div class="d-flex flex-column">
 
+                    <div>
+                        <button id="display-position" class="navbar-toggler float-end" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+
+                    <div>
+                        <div class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <img class="p-2 d-none d-xxl-block" src="/src/assets/icons/linkedin-white.svg" alt="">
+                            <img class="p-2 d-none d-xxl-block" src="/src/assets/icons/twitter-white.svg" alt="">
+                            <img class="p-2 d-none d-xxl-block" src="/src/assets/icons/instagram-white.svg" alt="">
+                            <img class="p-2 d-none d-xxl-block" src="/src/assets/icons/facebook-white.svg" alt="">
+                        </div>
+
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-link p-2 " aria-current="page" href="#">About us</a>
+                                <a class="nav-link p-2" href="#">Events</a>
+                                <a class="nav-link p-2" href="#">Nordic roaster</a>
+                                <a class="nav-link p-2" href="#">Links</a>
+                                <a class="nav-link p-2" href="#">Contact</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-
         </nav>
     </header>
     <main>
