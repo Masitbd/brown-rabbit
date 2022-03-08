@@ -1,13 +1,13 @@
-window.onload = function () {
+/* window.onload = function () {
   var el = document.createElement("div");
   el.innerHTML = "RABBIT TEST ";
   var div = document.getElementById("headline");
-  insertAfter(div, el);
+  insertAfter(div, el); */
 
-  /* FUNCTIONS */
+/* FUNCTIONS */
 
-  // Inserts newNode after referenceNode
-  function insertAfter(referenceNode, newNode) {
+// Inserts newNode after referenceNode
+/*   function insertAfter(referenceNode, newNode) {
     referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
   }
-};
+}; */
