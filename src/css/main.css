@@ -26,12 +26,11 @@ body {
 
 #pagin nav {
     width: 60%;
-    margin: auto;
     padding: 20px 0;
     display: flex;
   }
 
-  ul {
+  #ul-style {
     display: flex;
     list-style-type: none;
     margin: 0px;
@@ -72,5 +71,13 @@ body {
   }
 
   #page-list {
-   /*  display: none; */
+    display: none;
+  }
+
+  .content-2{
+    background-color: antiquewhite;
+  }
+
+  .content-3{
+   background-color: dimgray; 
   }

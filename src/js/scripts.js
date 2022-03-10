@@ -37,16 +37,9 @@ const detail = () => {
 
 function doSearch() {
   const text = document.getElementById("searchBtn");
-  /*  if (window.find(text) && e.keyCode === 13) {
-    console.log(window.find(text));
-  } */
-  /*  const textValue = text.value;
-   */
   text.addEventListener("keyup", function (event) {
     if (event.key === "Enter") {
-      // console.log(textValue);
       const textValue = text.value;
-
       event.preventDefault();
       window.find(textValue);
       console.log(window.find(textValue));
